@@ -6,6 +6,11 @@ export const createSEOMeta = (data) => [
         property: 'og:description',
         content: data.description,
     },
+    {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website'
+    },
     { hid: 'og:image', property: 'og:image', content: data.image },
     {
         hid: 'og:url',
@@ -16,5 +21,10 @@ export const createSEOMeta = (data) => [
         hid: 'twitter:card',
         name: 'twitter:card',
         content: data.cardType || 'summary_large_image',
+    },
+    {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: data.image,
     },
 ]
