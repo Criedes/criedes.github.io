@@ -5,10 +5,6 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  router: {
-    base: '/criedes.github.io/'
-  },
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'rattanachat-portfolio',
@@ -56,7 +52,4 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    publicPath: '.nuxt/dist/'
-  }
 }
