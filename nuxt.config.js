@@ -6,7 +6,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/rattanachat-portfolio/'
+    base: '/criedes.github.io/'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
