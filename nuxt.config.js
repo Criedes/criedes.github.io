@@ -1,4 +1,5 @@
 import { createSEOMeta } from "./utils/seo";
+import ogImage from "@/assets/images/cimb.png";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -20,7 +21,7 @@ export default {
       ...createSEOMeta({
         title: "Rattanachat's Portfolio",
         description: "Get to know all about me, my skills and experiences",
-        image: "/assets/images/cimb.png",
+        image: "https://rattanachat.com/" + ogImage,
         url: "https://rattanachat.com",
       }),
     ],
