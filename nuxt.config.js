@@ -7,18 +7,18 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Rattanachat's Portfolio",
+    // title: "Rattanachat's Portfolio",
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: "Get to know all about me, my skills and experiences"
-      }
+      // {
+      //   hid: 'description',
+      //   name: 'description',
+      //   content: "Get to know all about me, my skills and experiences"
+      // }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
