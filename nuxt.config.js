@@ -19,8 +19,8 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
       ...createSEOMeta({
         title: "Rattanachat's Portfolio",
-        description: "Get to know all about Naruto and its characters in tiny bits of info.",
-        image: "assets/images/cimb.png",
+        description: "Get to know all about me, my skills and experiences",
+        image: "/assets/images/cimb.png",
         url: "https://rattanachat.com",
       }),
     ],
