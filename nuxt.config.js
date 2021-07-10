@@ -1,5 +1,3 @@
-import { createSEOMeta } from "./utils/seo";
-
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
@@ -16,13 +14,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'format-detection', content: 'telephone=no' },
-      ...createSEOMeta({
-        title: "Rattanachat's Portfolio",
-        description: "Get to know all about me, my skills and experiences",
-        image: "/cimb.png",
-        url: "https://rattanachat.com",
-      }),
+      {
+        hid: 'description',
+        name: 'description',
+        content: "Get to know all about me, my skills and experiences"
+      }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -41,6 +37,7 @@ export default {
     { src: "@/plugins/kenesis" },
     { src: "@/plugins/vue-flickity" },
     { src: "@/plugins/mdicon" },
+    { src: "@/utils/head-utils.js" }
   ],
 
   purgeCSS: {
