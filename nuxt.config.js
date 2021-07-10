@@ -1,4 +1,4 @@
-import { createSEOMeta } from "./utils/head-utils";
+import { createSEOMeta } from "./utils/seo";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
