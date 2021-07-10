@@ -11,11 +11,8 @@
 import ogImage from "@/assets/images/cimb.png";
 export default {
   head() {
-    return this.$headUtils({
-      lang: "en",
-      title: "About - Rattanachat's Portfolio",
-      description: "Get to know all about me, my skills and experiences",
-      image: ogImage,
+    return this.$seo({
+      name: "About",
     });
   },
 };
