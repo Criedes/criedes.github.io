@@ -4,8 +4,18 @@
     :style="backgroundStyle"
   >
     <div @click="navigateToHome()">
-      <img v-if="dark" src="@/assets/images/logo-rs-dark.png" alt="" />
-      <img v-if="!dark" src="@/assets/images/logo-rs.png" alt="" />
+      <img
+        v-if="dark"
+        class="rs-logo"
+        src="@/assets/images/logo-rs-dark.png"
+        alt=""
+      />
+      <img
+        v-if="!dark"
+        class="rs-logo"
+        src="@/assets/images/logo-rs.png"
+        alt=""
+      />
     </div>
     <nuxt-link to="about"> About </nuxt-link>
     <nuxt-link to="skills"> Skills </nuxt-link>
@@ -47,7 +57,7 @@ export default {
   width: 100%;
   color: #fff;
 
-  img {
+  img.rs-logo {
     padding: 10px 8px;
     cursor: pointer;
     display: flex;
@@ -113,14 +123,14 @@ export default {
 }
 
 .main-menu-dark {
-   display: flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 100px;
   width: 100%;
   color: #000;
 
-  img {
+  img.rs-logo {
     padding: 10px 8px;
     cursor: pointer;
     display: flex;
