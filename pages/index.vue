@@ -19,15 +19,15 @@
 </template>
 
 <script>
-import ogImage from "@/assets/images/cimb.png";
+// import ogImage from "@/assets/images/cimb.png";
 export default {
-  head() {
-    return this.$headUtils({
-      lang: "en",
-      title: "Home - Rattanachat's Portfolio",
-      description: "Get to know all about me, my skills and experiences",
-      image: ogImage,
-    });
-  },
+  // head() {
+  //   return this.$headUtils({
+  //     lang: "en",
+  //     title: "Home - Rattanachat's Portfolio",
+  //     description: "Get to know all about me, my skills and experiences",
+  //     image: ogImage,
+  //   });
+  // },
 };
 </script>
