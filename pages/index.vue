@@ -22,9 +22,9 @@
 // import ogImage from "@/assets/images/cimb.png";
 export default {
   head() {
-    return this.$seo({
-      name: "Home",
-    });
+    // return this.$seo({
+    //   name: "Home",
+    // });
   },
 };
 </script>

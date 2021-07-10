@@ -3,7 +3,10 @@
     :class="{ 'main-menu-light': !dark, 'main-menu-dark': dark }"
     :style="backgroundStyle"
   >
-    <nuxt-link to="/"> Home </nuxt-link>
+    <div @click="navigateToHome()">
+      <img v-if="dark" src="@/assets/images/logo-rs-dark.png" alt="" />
+      <img v-if="!dark" src="@/assets/images/logo-rs.png" alt="" />
+    </div>
     <nuxt-link to="about"> About </nuxt-link>
     <nuxt-link to="skills"> Skills </nuxt-link>
     <nuxt-link to="portfolio"> Works </nuxt-link>
@@ -27,6 +30,11 @@ export default {
       return "background:" + this.background;
     },
   },
+  methods: {
+    navigateToHome() {
+      this.$router.push("/");
+    },
+  },
 };
 </script>
 
@@ -38,6 +46,15 @@ export default {
   min-height: 100px;
   width: 100%;
   color: #fff;
+
+  img {
+    padding: 10px 8px;
+    cursor: pointer;
+    display: flex;
+    box-sizing: border-box;
+    width: 80px;
+  }
+
   a {
     font-size: 1em;
     position: relative;
@@ -96,20 +113,31 @@ export default {
 }
 
 .main-menu-dark {
-  display: flex;
+   display: flex;
   justify-content: space-around;
   align-items: center;
   min-height: 100px;
   width: 100%;
   color: #000;
+
+  img {
+    padding: 10px 8px;
+    cursor: pointer;
+    display: flex;
+    box-sizing: border-box;
+    width: 80px;
+  }
+
   a {
+    font-size: 1em;
     position: relative;
     display: block;
     margin: 0 2px;
-    padding: 0.625rem 1.25rem;
+    padding: 0.625rem 0.85rem;
     text-transform: uppercase;
     overflow: hidden;
     text-decoration: unset;
+    box-sizing: border-box;
     color: #000;
   }
 

@@ -8,11 +8,12 @@
 </template>
 
 <script>
-import ogImage from "@/assets/images/cimb.png";
 export default {
   head() {
-    return this.$seo({
-      name: "Work",
+    return this.$headUtils({
+      title: "Work - Rattanachat's Portfolio",
+      description: "Get to know all about me, my skills and experiences",
+      site_name: "Rattanachat's Portfolio",
     });
   },
 };

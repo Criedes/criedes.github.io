@@ -18,23 +18,11 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'description', name: 'description', content: "Get to know all about me, my skills and experiences" },
-      {
-        hid: 'og:image',
-        property: 'og:image',
-        content: '/cimb.png'
-      },
-      {
-        hid: 'og:site_name',
-        name: 'og:site_name',
-        content: "Rattanachat's Portfolio"
-      },
-      { hid: 'og:title', name: 'og:title', content: 'Crypto Ticker' },
-      // ...createSEOMeta({
-      //   title: "Rattanachat's Portfolio",
-      //   description: "Get to know all about me, my skills and experiences",
-      //   image: "/cimb.png",
-      //   url: "https://rattanachat.com",
-      // }),
+      ...createSEOMeta({
+        title: "Rattanachat's Portfolio",
+        description: "Get to know all about me, my skills and experiences",
+        site_name: "Rattanachat's Portfolio"
+      }),
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
