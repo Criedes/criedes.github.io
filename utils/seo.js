@@ -17,11 +17,11 @@ export const createSEOMeta = (data) => [
         property: 'og:url',
         content: process.env.HOST_NAME + '/' + data.url,
     },
-    {
-        hid: 'twitter:card',
-        name: 'twitter:card',
-        content: data.cardType || 'summary_large_image',
-    },
+    // {
+    //     hid: 'twitter:card',
+    //     name: 'twitter:card',
+    //     content: data.cardType || 'summary_large_image',
+    // },
     {
         hid: 'twitter:image',
         name: 'twitter:image',
