@@ -61,7 +61,7 @@ export default {
   modules: [
     '@nuxtjs/pwa',
     ['@nuxtjs/google-analytics',
-      { id: 'G-WEVP77887F' },
+      { id: 'UA-201854170-1' },
     ]
   ],
   pwa: {
@@ -75,10 +75,8 @@ export default {
       lang: 'en',
     },
   },
-
-
   googleAnalytics: {
-    id: 'G-WEVP77887F',
+    id: 'UA-201854170-1',
     debug: {
       sendHitTask: true
     }
