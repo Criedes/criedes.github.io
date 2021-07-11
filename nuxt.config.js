@@ -60,6 +60,9 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/pwa',
+    ['@nuxtjs/google-analytics',
+      { id: 'G-WEVP77887F' },
+    ]
   ],
   pwa: {
     meta: {
@@ -71,6 +74,14 @@ export default {
       short_name: 'RS Portfolio',
       lang: 'en',
     },
+  },
+
+
+  googleAnalytics: {
+    id: 'G-WEVP77887F',
+    debug: {
+      sendHitTask: true
+    }
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
