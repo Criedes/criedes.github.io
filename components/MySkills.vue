@@ -2,115 +2,67 @@
   <kinesis-container>
     <slot></slot>
     <kinesis-container class="my-skills">
-      <kinesis-element
-        class="box"
-        data-aos="fade-up-right"
-        data-aos-duration="200"
-        data-aos-delay="100"
-        :strength="20"
-      >
+      <kinesis-element class="box" data-aos="fade-up-right" data-aos-duration="200" data-aos-delay="100" :strength="20">
       </kinesis-element>
-      <kinesis-element
-        class="box"
-        data-aos="fade-right"
-        data-aos-duration="300"
-        data-aos-delay="100"
-      >
+      <kinesis-element class="box" data-aos="fade-right" data-aos-duration="300" data-aos-delay="100">
       </kinesis-element>
-      <kinesis-element
-        class="box"
-        data-aos="fade-up-left"
-        data-aos-duration="300"
-        data-aos-delay="100"
-      >
+      <kinesis-element class="box" data-aos="fade-up-left" data-aos-duration="300" data-aos-delay="100">
       </kinesis-element>
       <kinesis-element class="detail">
-        <rs-base-bubble-text
-          text="Skills & Experiences"
-          class="title"
-          data-aos="fade"
-          data-aos-duration="200"
-          data-aos-delay="100"
-        ></rs-base-bubble-text>
+        <rs-base-bubble-text text="Skills & Experiences" class="title" data-aos="fade" data-aos-duration="200"
+          data-aos-delay="100"></rs-base-bubble-text>
         <rs-base-bubble-text
           text="I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins, features, animations, and coding interactive layouts."
-          class="paragraph"
-          data-aos="fade"
-          data-aos-duration="200"
-          data-aos-delay="200"
-        ></rs-base-bubble-text>
+          class="paragraph" data-aos="fade" data-aos-duration="200" data-aos-delay="200"></rs-base-bubble-text>
         <rs-base-bubble-text
           text="I also have full-stack developer experience in freelance project to create end to end functions"
-          class="paragraph"
-          data-aos="fade"
-          data-aos-duration="200"
-          data-aos-delay="200"
-        ></rs-base-bubble-text>
+          class="paragraph" data-aos="fade" data-aos-duration="200" data-aos-delay="200"></rs-base-bubble-text>
       </kinesis-element>
 
       <kinesis-element class="chart-container">
-        <rs-base-bar-chart
-          title="Vue.js/Nuxt.js"
-          percentage="80"
-          color="#b1ff00"
-          :delay="100"
-        >
+        <rs-base-bar-chart title="Vue.js/Nuxt.js" percentage="80" color="#b1ff00" :delay="100">
         </rs-base-bar-chart>
-        <rs-base-bar-chart
-          title="Android(Kotlin)"
-          percentage="60"
-          color="#b1ff00"
-          :delay="300"
-        >
+        <rs-base-bar-chart title="Spring Boot" percentage="70" color="#b1ff00" :delay="700">
         </rs-base-bar-chart>
-        <rs-base-bar-chart
-          title="Angular"
-          percentage="45"
-          color="#b1ff00"
-          :delay="500"
-        >
+        <rs-base-bar-chart title="Android(Kotlin)" percentage="60" color="#b1ff00" :delay="300">
         </rs-base-bar-chart>
-        <rs-base-bar-chart
-          title="Spring Boot"
-          percentage="30"
-          color="#b1ff00"
-          :delay="700"
-        >
+        <rs-base-bar-chart title="Angular" percentage="55" color="#b1ff00" :delay="500">
         </rs-base-bar-chart>
-        <rs-base-bar-chart
-          title="Node.js"
-          percentage="50"
-          color="#b1ff00"
-          :delay="900"
-        >
+        <rs-base-bar-chart title="Node.js" percentage="50" color="#b1ff00" :delay="900">
         </rs-base-bar-chart>
-        <flickity
-          :options="settings"
-          data-aos="fade"
-          data-aos-duration="200"
-          data-aos-delay="200"
-        >
+        <flickity :options="settings" data-aos="fade" data-aos-duration="200" data-aos-delay="200">
           <div class="experience-element">
-            <div class="experience-title">Frontend Developer</div>
+            <div class="experience-title">Associate Software Engineer</div>
             <div class="experience-subtitle">
-              Better-i-t<br />
-              Oct 2018 - May 2019
+              SS&C Technologies Holdings, Inc. <br />
+              Dec 2021 - Present
             </div>
             <div class="experience-detail">
-              PTTGC Board Websites (Sharepoint)<br />
-              Amazon Claim bot Websites (Angular)
+              Initiate to implement GraphQL for microservices
+              Initiate to implement Redis for microservices
+              Implement Redis sink connector for messages from Apache Kafka
+              Integrate Apache Kafka to microservices
+              Pricing and Trasactional services for Alternative Investment
             </div>
           </div>
           <div class="experience-element">
             <div class="experience-title">Software Engineer</div>
             <div class="experience-subtitle">
               CIMB Thai Bank Public Company Limited <br />
-              Jun 2019 - Present
+              Jun 2019 - Dec 2021
             </div>
             <div class="experience-detail">
               Bond Booking Feature: CIMB Thai Digital Banking Application<br />
               OMS Mutual Fund Backoffice Website<br />
             </div>
+          </div>
+          <div class="experience-element">
+            <div class="experience-title">Freelance Developer (Nuxt.js)</div>
+            <div class="experience-subtitle">
+              Freelance<br />
+              Jan 2021 - Jun 2021
+            </div>
+            <div class="experience-detail">Backoffice HR Management System</div>
           </div>
           <div class="experience-element">
             <div class="experience-title">Freelance Developer (Nuxt.js)</div>
@@ -121,12 +73,15 @@
             <div class="experience-detail">True VLearn2<br /></div>
           </div>
           <div class="experience-element">
-            <div class="experience-title">Freelance Developer (Nuxt.js)</div>
+            <div class="experience-title">Frontend Developer</div>
             <div class="experience-subtitle">
-              Freelance<br />
-              Jan 2021 - Jun 2021
+              Better-i-t<br />
+              Oct 2018 - May 2019
             </div>
-            <div class="experience-detail">Backoffice HR Management System</div>
+            <div class="experience-detail">
+              PTTGC Board Websites (Sharepoint)<br />
+              Amazon Claim bot Websites (Angular)
+            </div>
           </div>
         </flickity>
       </kinesis-element>
@@ -156,6 +111,7 @@ $text-color: #d7b94c;
 $caret-color: white;
 $text-length: 32;
 $animation-time: 3s;
+
 .my-skills {
   position: relative;
   display: grid;
@@ -188,6 +144,7 @@ $animation-time: 3s;
     flex-direction: column;
     width: 100%;
   }
+
   img {
     display: flex;
     width: 100%;
@@ -195,11 +152,13 @@ $animation-time: 3s;
     height: auto;
   }
 }
+
 .flickity-slide {
   position: absolute;
   width: 50%;
   height: 100%;
 }
+
 .box {
   position: absolute;
   top: 80vh;
@@ -230,6 +189,7 @@ $animation-time: 3s;
     left: -5vw;
     top: 2vh;
   }
+
   &:nth-child(3n) {
     border-color: lighten(#32c5ff, 10%);
     width: 200px;
@@ -276,16 +236,19 @@ $animation-time: 3s;
     background: #fff;
     margin: 10px;
   }
+
   &-title {
     font-size: 1.5em;
     font-weight: 700;
     margin-bottom: 8px;
   }
+
   &-subtitle {
     font-size: 1em;
     font-weight: 200;
     margin-bottom: 8px;
   }
+
   &-detail {
     font-size: 0.75em;
     font-weight: 400;
@@ -315,6 +278,7 @@ $animation-time: 3s;
     padding: 50px 50px;
     justify-content: center;
     box-sizing: border-box;
+
     .title {
       font-weight: 700;
       font-size: 3em;
@@ -325,6 +289,7 @@ $animation-time: 3s;
       font-size: 1em;
       text-align: center;
     }
+
     img {
       display: flex;
       width: 100%;
@@ -356,6 +321,7 @@ $animation-time: 3s;
       font-size: 0.8em;
       text-align: center;
     }
+
     img {
       display: flex;
       width: 100%;
@@ -363,6 +329,7 @@ $animation-time: 3s;
       height: auto;
     }
   }
+
   .box {
     position: absolute;
     top: 80vh;
@@ -404,6 +371,7 @@ $animation-time: 3s;
       left: -10vw;
       top: -27vh;
     }
+
     &:nth-child(4n) {
       border-color: lighten(#32c5ff, 10%);
       width: 200px;
@@ -427,6 +395,7 @@ $animation-time: 3s;
     align-items: center;
     padding: 50px 20px;
     box-sizing: border-box;
+
     .title {
       font-weight: 700;
       font-size: 1.5em;
@@ -437,12 +406,14 @@ $animation-time: 3s;
       font-size: 0.75em;
       text-align: center;
     }
+
     img {
       display: flex;
       width: 100%;
       max-width: 170px;
       height: auto;
     }
+
     .box {
       position: absolute;
       top: 80vh;
@@ -484,6 +455,7 @@ $animation-time: 3s;
         left: -10vw;
         top: -30vh;
       }
+
       &:nth-child(4n) {
         border-color: lighten(#32c5ff, 10%);
         width: 200px;
