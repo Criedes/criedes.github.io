@@ -42,7 +42,7 @@
               Initiate to implement Redis for microservices <br />
               Implement Redis sink connector for messages from Apache Kafka <br />
               Integrate Apache Kafka to microservices <br />
-              Pricing and Trasactional services for Alternative Investment <br />
+              Pricing and Transactional services for Alternative Investment <br />
             </div>
           </div>
           <div class="experience-element">
