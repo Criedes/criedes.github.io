@@ -38,11 +38,11 @@
               Dec 2021 - Present
             </div>
             <div class="experience-detail">
-              Initiate to implement GraphQL for microservices
-              Initiate to implement Redis for microservices
-              Implement Redis sink connector for messages from Apache Kafka
-              Integrate Apache Kafka to microservices
-              Pricing and Trasactional services for Alternative Investment
+              Initiate to implement GraphQL for microservices <br />
+              Initiate to implement Redis for microservices <br />
+              Implement Redis sink connector for messages from Apache Kafka <br />
+              Integrate Apache Kafka to microservices <br />
+              Pricing and Trasactional services for Alternative Investment <br />
             </div>
           </div>
           <div class="experience-element">
