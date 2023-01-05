@@ -40,7 +40,7 @@
           data-aos-delay="100"
         ></rs-base-bubble-text>
         <rs-base-bubble-text
-          text="Since beginning my journey as a developer nearly 3 years ago, I've done part-time work for software house agency, developed many study project, done freelance project and apply with CIMB Thai Bank to create digital products for wealth business and consumer use. I'm a fast learner, naturally curious, and perpetually working on improving my development skills to solved problem"
+          text="Since beginning my journey as a developer nearly 5 years ago, I've done part-time work for software house agency, developed many study project, done freelance project and apply with CIMB Thai Bank to create digital products for wealth business and consumer use. I'm a fast learner, naturally curious, and perpetually working on improving my development skills to solved problem"
           class="paragraph"
           data-aos="fade"
           data-aos-duration="200"

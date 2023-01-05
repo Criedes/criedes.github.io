@@ -22,7 +22,7 @@
       <kinesis-element class="chart-container">
         <rs-base-bar-chart title="Vue.js/Nuxt.js" percentage="80" color="#b1ff00" :delay="100">
         </rs-base-bar-chart>
-        <rs-base-bar-chart title="Spring Boot" percentage="70" color="#b1ff00" :delay="700">
+        <rs-base-bar-chart title="Spring Boot" percentage="80" color="#b1ff00" :delay="700">
         </rs-base-bar-chart>
         <rs-base-bar-chart title="Android(Kotlin)" percentage="60" color="#b1ff00" :delay="300">
         </rs-base-bar-chart>
@@ -32,10 +32,23 @@
         </rs-base-bar-chart>
         <flickity :options="settings" data-aos="fade" data-aos-duration="200" data-aos-delay="200">
           <div class="experience-element">
+            <div class="experience-title">Senior Java Developer</div>
+            <div class="experience-subtitle">
+              Accenture Thailand <br />
+              Oct 2022 - Present
+            </div>
+            <div class="experience-detail">
+              Initiated to EIPP-Profile microservice <br />
+              Implemented Scheduler Batch for microservice <br />
+              Implemented AutoSys for Batch to create report files <br />
+              Integrated Apache Kafka to microservices <br />
+            </div>
+          </div>
+          <div class="experience-element">
             <div class="experience-title">Associate Software Engineer</div>
             <div class="experience-subtitle">
               SS&C Technologies Holdings, Inc. <br />
-              Dec 2021 - Present
+              Dec 2021 - Sep 2022
             </div>
             <div class="experience-detail">
               Initiate to implement GraphQL for microservices <br />
