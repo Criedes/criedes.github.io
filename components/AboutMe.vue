@@ -40,7 +40,7 @@
           data-aos-delay="100"
         ></rs-base-bubble-text>
         <rs-base-bubble-text
-          text="Since beginning my journey as a developer nearly 5 years ago, I've done part-time work for software house agency, developed many study project, done freelance project and apply with CIMB Thai Bank to create digital products for wealth business and consumer use. I'm a fast learner, naturally curious, and perpetually working on improving my development skills to solved problem"
+          text="Since beginning my journey as a developer nearly 5 years ago, I've worked with prominent companies such as CIMB Thai Bank, SS&C Technologies, and Accenture Thailand. During this time, I’ve developed key features for financial systems, initiated critical backend services like GraphQL, Redis, and Kafka-DB2 integrations, and led multiple teams in designing and developing robust solutions for complex systems. I’m always eager to learn, continually improving my skills to deliver innovative and scalable solutions for enterprise needs."
           class="paragraph"
           data-aos="fade"
           data-aos-duration="200"

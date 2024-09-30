@@ -7,7 +7,7 @@
           :speed="100"
           :interval="30"
           :deleted="false"
-          words="Frontend Developer & Backend Developer"
+          words="Full Stack Developer"
         >
         </rs-base-typewriter>
       </h1>

@@ -20,19 +20,19 @@
       </kinesis-element>
 
       <kinesis-element class="chart-container">
+        <rs-base-bar-chart title="Spring Boot" percentage="100" color="#b1ff00" :delay="700">
+        </rs-base-bar-chart>
         <rs-base-bar-chart title="Vue.js/Nuxt.js" percentage="80" color="#b1ff00" :delay="100">
         </rs-base-bar-chart>
-        <rs-base-bar-chart title="Spring Boot" percentage="80" color="#b1ff00" :delay="700">
-        </rs-base-bar-chart>
-        <rs-base-bar-chart title="Android(Kotlin)" percentage="60" color="#b1ff00" :delay="300">
-        </rs-base-bar-chart>
-        <rs-base-bar-chart title="Angular" percentage="55" color="#b1ff00" :delay="500">
+        <rs-base-bar-chart title="Angular" percentage="60" color="#b1ff00" :delay="500">
         </rs-base-bar-chart>
         <rs-base-bar-chart title="Node.js" percentage="50" color="#b1ff00" :delay="900">
         </rs-base-bar-chart>
+        <rs-base-bar-chart title="Android(Kotlin)" percentage="40" color="#b1ff00" :delay="300">
+        </rs-base-bar-chart>
         <flickity :options="settings" data-aos="fade" data-aos-duration="200" data-aos-delay="200">
           <div class="experience-element">
-            <div class="experience-title">Senior Java Developer</div>
+            <div class="experience-title">Packaged App Development Senior Analyst</div>
             <div class="experience-subtitle">
               Accenture Thailand <br />
               Oct 2022 - Present

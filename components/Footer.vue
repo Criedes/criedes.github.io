@@ -2,51 +2,34 @@
   <div :class="{ 'footer-light': !dark, 'footer-dark': dark }">
     <div class="footer-body center">
       <div class="social-container">
-        <a
-          href="https://www.facebook.com/TomtanZeRoAGE"
-          target="_blank"
-          class="social-icon"
-        >
+        <a href="https://www.facebook.com/TomtanZeRoAGE" target="_blank" class="social-icon">
           <mdicon name="facebook" />
         </a>
-        <a
-          href="https://www.linkedin.com/in/rattanachat-sooksumpus-b579b9135"
-          target="_blank"
-          class="social-icon"
-        >
+        <a href="https://www.linkedin.com/in/rattanachat-sooksumpus-b579b9135" target="_blank" class="social-icon">
           <mdicon name="linkedin" />
         </a>
-        <a
-          href="https://github.com/Criedes"
-          target="_blank"
-          class="social-icon"
-        >
+        <a href="https://github.com/Criedes" target="_blank" class="social-icon">
           <mdicon name="github" />
         </a>
         <a href="tel:+66956144176" target="_blank" class="social-icon">
           <mdicon name="phone" />
         </a>
-        <a
-          href="mailto:rattanachat.s.work@gmail.com"
-          target="_blank"
-          class="social-icon"
-        >
+        <a href="mailto:rattanachat.s.work@gmail.com" target="_blank" class="social-icon">
           <mdicon name="email" />
         </a>
       </div>
     </div>
     <div class="made-by">
-      Made by me <mdicon name="copyright" /> rattanachat.s
+      Made by me
+      <mdicon name="copyright" /> rattanachat.s
     </div>
-    <img
-      class="built-with-nuxt"
-      :src="
-        !dark
-          ? require('~/assets/images/built-with-nuxt.svg')
-          : require('~/assets/images/built-with-nuxt-white.svg')
-      "
-      alt=""
-    />
+    <img class="built-with-nuxt" :src="!dark
+      ? require('~/assets/images/built-with-nuxt.svg')
+      : require('~/assets/images/built-with-nuxt-white.svg')
+    " alt="" />
+    <div class="made-by mt-5">
+      Profile Updated ©2024
+    </div>
   </div>
 </template>
 
@@ -67,6 +50,10 @@ $text-color: #d7b94c;
 $caret-color: white;
 $text-length: 32;
 $animation-time: 3s;
+
+.mt-5 {
+  margin-top: 20px;
+}
 
 .footer-light {
   display: flex;
@@ -112,6 +99,7 @@ $animation-time: 3s;
     cursor: pointer;
     transition: 0.2s all linear;
     background: #fff;
+
     &:hover {
       background: #2467f8;
       color: #fff;
@@ -187,6 +175,7 @@ $animation-time: 3s;
     cursor: pointer;
     transition: 0.2s all linear;
     background: #2467f8;
+
     &:hover {
       background: #fff;
       color: #2467f8;
