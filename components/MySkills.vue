@@ -30,6 +30,8 @@
         </rs-base-bar-chart>
         <rs-base-bar-chart title="Android(Kotlin)" percentage="40" color="#b1ff00" :delay="300">
         </rs-base-bar-chart>
+        <rs-base-bar-chart title="DevOps" percentage="30" color="#b1ff00" :delay="900">
+        </rs-base-bar-chart>
         <flickity :options="settings" data-aos="fade" data-aos-duration="200" data-aos-delay="200">
           <div class="experience-element">
             <div class="experience-title">Packaged App Development Senior Analyst</div>
