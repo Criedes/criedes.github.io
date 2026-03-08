@@ -36,7 +36,7 @@
           <div class="experience-element">
             <div class="experience-title">Senior Software Developer</div>
             <div class="experience-subtitle">
-              Accenture Thailand <br />
+              ATA IT Limited<br />
               Oct 2025 - Present
             </div>
             <div class="experience-detail">
