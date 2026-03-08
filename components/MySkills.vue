@@ -34,10 +34,23 @@
         </rs-base-bar-chart>
         <flickity :options="settings" data-aos="fade" data-aos-duration="200" data-aos-delay="200">
           <div class="experience-element">
+            <div class="experience-title">Senior Software Developer</div>
+            <div class="experience-subtitle">
+              Accenture Thailand <br />
+              Oct 2025 - Present
+            </div>
+            <div class="experience-detail">
+              Initiated to Agentic AI for GitHub Copilot <br />
+              Migrated service from BitBucket to GitHub (Jenkins -> GitHub Actions)<br/>
+              Implemented Bank Account Opening Service<br />
+              Maintain Service to prevent vulnerability (Fixed Snyk and Sonar)<br />
+            </div>
+          </div>
+          <div class="experience-element">
             <div class="experience-title">Packaged App Development Senior Analyst</div>
             <div class="experience-subtitle">
               Accenture Thailand <br />
-              Oct 2022 - Present
+              Oct 2022 - Oct 2025
             </div>
             <div class="experience-detail">
               Initiated to EIPP-Profile microservice <br />
